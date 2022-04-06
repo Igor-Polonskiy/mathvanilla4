@@ -1,0 +1,63 @@
+.task11_wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.task11_imgWrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+}
+
+.task11_imgWrapper img {
+    max-width: 100%;
+}
+
+.task11_line {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.task11_answer {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    width: 150px;
+    margin: 5px;
+}
+
+.task11_answer>img {
+    width: 100%;
+}
+
+.task11_answer input {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid #0AB7D3;
+    align-self: center;
+}
+
+.task11_answer>p {
+    margin: 0;
+    align-self: center
+}
+
+.task11_checkTask {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.task11_chek_answer {
+    font-size: 26px;
+}
+
+.task11_play {
+    cursor: pointer;
+}

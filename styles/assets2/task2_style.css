@@ -1,34 +1,34 @@
-.task9_wrapper {
+.task2_wrapper {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.task9_imgWrapper {
+.task2_imgWrapper {
     display: flex;
     justify-content: center;
     max-width: 500px;
 }
 
-.task9_imgWrapper img {
+.task2_imgWrapper img {
     max-width: 100%;
 }
 
-.task9_answer {
+.task2_answer {
     display: flex;
     flex-direction: column;
     font-size: 24px;
 }
 
-.task9_answer p {
+.task2_answer p {
     max-width: 100%;
 }
 
-.task9_answer span {
+.task2_answer span {
     margin: 20px;
 }
 
-.task9_answer input {
+.task2_answer input {
     margin: 10px;
     width: 30px;
     height: 24px;
@@ -37,22 +37,22 @@
     text-align: center;
 }
 
-.task9_checkTask {
+.task2_checkTask {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin-top: 20px;
 }
 
-.task9_chek_answer {
+.task2_chek_answer {
     font-size: 26px;
 }
 
-.task9_play {
+.task2_play {
     cursor: pointer;
 }
 
-.task9_audio {
+.task2_audio {
     display: none !important;
 }
 

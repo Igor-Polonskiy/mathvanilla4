@@ -1,0 +1,71 @@
+.task9_wrapper {
+    max-width: 1000px;
+}
+
+.task9_imgWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.task9_imgWrapper img {
+    height: 100%;
+}
+
+.task9_answers {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.task9_answer {
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 150px;
+    border: 1px solid grey;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.task9_answer:hover {
+    box-shadow: -5px -5px 15px #b8b7b7, 5px 5px 15px #99999b;
+}
+
+.task9_answer_active {
+    border: 8px solid blue
+}
+
+.task9_green {
+    border: 8px solid green;
+}
+
+.task9_red {
+    border: 8px solid red;
+}
+
+.task9_checkTask {
+    display: flex;
+    justify-content: space-between;
+}
+
+.task9_chek_answer {
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+}
+
+.task9_chek_answer span {
+    font-size: 25px;
+}
