@@ -1,10 +1,10 @@
-.task15_wrapper {
+.task4_wrapper {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.task15_imgwrapper {
+.task4_imgwrapper {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -12,13 +12,13 @@
     margin-bottom: 20px;
 }
 
-.task15_img {
+.task4_img {
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
-    width: 100px;
+    height: 150px;
+    width: 200px;
     box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #cbcdd3;
     border-radius: 10px;
     cursor: pointer;
@@ -28,40 +28,22 @@
     margin-bottom: 20px;
 }
 
-.task15_active {
+.task4_active {
     border: 5px solid blue;
 }
 
-.task15_checkTask {
+.task4_checkTask {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-.task15_chek_answer {
+.task4_chek_answer {
     display: flex;
     align-items: center;
     font-size: 26px;
 }
 
-.task15_chek_answer span {
+.task4_chek_answer span {
     font-size: 25px;
-}
-
-.task1Btn {
-    cursor: pointer !important;
-    transition: all 0.2s ease;
-    box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4 !important;
-    border: none !important;
-    border-radius: 12px !important;
-    background-color: #0AB7D3 !important;
-    padding: 10px !important;
-    font-size: 26px !important;
-    color: white !important;
-    min-width: 100px !important;
-    margin: 0 !important;
-}
-
-.task1Btn:hover {
-    box-shadow: -5px -5px 15px #b8b7b7, 5px 5px 15px #99999b !important;
 }
